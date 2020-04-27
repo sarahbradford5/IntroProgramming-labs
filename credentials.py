@@ -23,7 +23,7 @@ def length():
      if len(x)<8:
          notCorrectLen = True
      while notCorrectLen:
-          print("password not long enough")
+          print("password not long enough, must be 8 characters")
           pswd = input("Create a new password: ")
           if len(pswd)<8:
              notCorrectLen = True
