@@ -1,3 +1,6 @@
+#Sarah Bradford
+#citation: worked with Jadyn Kennedy 
+
 def main():
     print("GUESSING GAME")
     x=2
@@ -29,4 +32,4 @@ def main():
 
 main()
 
-#citation: worked with Jadyn Kennedy 
+
