@@ -14,10 +14,13 @@ def email():
      return x 
 
 def password():
-     x=email()
      pswd = input("Create a new password: ")
+     return pswd
+
+def length():
+     x=password()
      notCorrectLen = False
-     if len(pswd)<8:
+     if len(x)<8:
          notCorrectLen = True
      while notCorrectLen:
           print("password not long enough")
@@ -27,10 +30,11 @@ def password():
           else:
               notCorrectLen = False
      print("strong password")
-     print("ok! Your new email address is", x +"1@marist.edu")
      
 def main():
-     password()
+     uname=email()
+     length()
+     print("ok! Your new email address is", uname.lower(),"1@marist.edu")
      
 
 main()
